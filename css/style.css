@@ -1,0 +1,14 @@
+.inner{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.inner:hover{
+    background-color: rgb(202, 57, 4);
+    color: #fff;
+    border-radius: 5px;
+}
+
