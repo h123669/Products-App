@@ -47,12 +47,11 @@ async function getcateories(catName) {
     }
     catch(error){
         console.log("error");
-        
     }
 }
 
 
-if (location.pathname =="../products.html") {
+if (location.pathname =="/Products-App/products.html") {
     getcateories(localStorage.getItem("categoryName"))
     
 }
@@ -92,7 +91,7 @@ location.href = "./productdetails.html"
 
 console.log(location.pathname);
 
-if (location.pathname=="../productdetails.html") {
+if (location.pathname=="/Products-App/productdetails.html") {
     getDetails(localStorage.getItem("productId"))
 }
 
@@ -144,7 +143,7 @@ async function allproducts() {
     }
 }
 
-if (location.pathname=="../allproducts.html") {
+if (location.pathname=="/Products-App/allproducts.html") {
     allproducts()
 }
 
