@@ -32,7 +32,7 @@ function discategories(list) {
         categorylist[i].addEventListener("click", function () {
             console.log(categorylist[i].innerText);
             localStorage.setItem("categoryName", categorylist[i].innerText);
-            location.href = "/products.html";
+            location.href = "./../products.html";
         })
     }
 }
