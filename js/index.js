@@ -52,7 +52,7 @@ async function getcateories(catName) {
 }
 
 
-if (location.pathname =="products.html") {
+if (location.pathname =="../products.html") {
     getcateories(localStorage.getItem("categoryName"))
     
 }
@@ -92,7 +92,7 @@ location.href = "./productdetails.html"
 
 console.log(location.pathname);
 
-if (location.pathname=="productdetails.html") {
+if (location.pathname=="../productdetails.html") {
     getDetails(localStorage.getItem("productId"))
 }
 
@@ -144,7 +144,7 @@ async function allproducts() {
     }
 }
 
-if (location.pathname=="allproducts.html") {
+if (location.pathname=="../allproducts.html") {
     allproducts()
 }
 
