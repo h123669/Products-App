@@ -32,7 +32,7 @@ function discategories(list) {
         categorylist[i].addEventListener("click", function () {
             console.log(categorylist[i].innerText);
             localStorage.setItem("categoryName", categorylist[i].innerText);
-            location.href = "../products.html";
+            location.href = "/products.html";
         })
     }
 }
@@ -85,7 +85,7 @@ for (let i = 0; i < product.length; i++) {
     product[i].addEventListener("click",()=>{
 console.log(product[i].getAttribute("id"));
 localStorage.setItem("productId",product[i].getAttribute("id"));
-location.href = "../productdetails.html"
+location.href = "/productdetails.html"
     } )
 }
 }
@@ -183,7 +183,7 @@ if (notEmpty()) {
     reset()
 
     setTimeout(() => {
-        location.href = "../index.html";
+        location.href = "/index.html";
     }, 3000);
     
 }}
